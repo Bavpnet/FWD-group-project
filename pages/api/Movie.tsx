@@ -7,7 +7,7 @@ const API_Key = "af70d4de-1ee0-4425-a428-b726e4cbbe0e";
 
 export default function Movie({nameRu, posterUrl, rating, filmId} : {nameRu:string, posterUrl:string, rating: string, filmId: number}) {
     let API = API_INFO_BBY_ID+ filmId;
-    console.log(API)
+    console.log(filmId)
     const [ film, setMovies ] = useState<any>('');
 
     useEffect( () => {
