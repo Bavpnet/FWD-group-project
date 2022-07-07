@@ -9,24 +9,25 @@ const API_URL_POPULAR = "https://kinopoiskapiunofficial.tech/api/v2.2/films/top?
 const API_URL_SEARCH =
     "https://kinopoiskapiunofficial.tech/api/v2.1/films/search-by-keyword?keyword=";
 
-
+type Movie = {
+    nameRu:string, posterUrl:string, rating: string, filmId: number
+}
 
 export default function Home() {
-    const [ movies, setMovies ] = useState<any[]>([]);
+    const [ movies, setMovies ] = useState<Movie[]>([]);
 
     useEffect( () => {
-            // fetch(API_URL_POPULAR, {
-            //     headers: {
-            //         "Content-Type": "application/json",
-            //         "X-API-KEY": API_Key,
-            //     },
-            // })
-            //     .then(res => res.json())
-            //     .then((data) => {
-            //         console.log(data);
-            //         setMovies(data.films);
-            //     });
-            console.log('Hello')
+            fetch(API_URL_POPULAR, {
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-API-KEY": API_Key,
+                },
+            })
+                .then(res => res.json())
+                .then((data) => {
+                    // console.log(data);
+                    setMovies(data.films);
+                });
 
         }, []);
     return (<>
