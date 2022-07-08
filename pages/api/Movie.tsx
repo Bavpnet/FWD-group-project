@@ -2,14 +2,19 @@ import React, {useEffect, useState} from "react";
 import {GetServerSideProps} from "next";
 import Info from "./Info";
 
+type Info ={
+    description: string;
+    slogan: string;
+}
+
 
 const API_INFO_BBY_ID = "https://kinopoiskapiunofficial.tech/api/v2.2/films/";
-const API_Key = "af70d4de-1ee0-4425-a428-b726e4cbbe0e";
+const API_Key = "fb8c0861-9519-4d6d-9e50-76b3953a7237";
 
 export default function Movie({nameRu, posterUrl, rating, filmId} : {nameRu:string, posterUrl:string, rating: string, filmId: number}) {
     let API = API_INFO_BBY_ID+ filmId;
 
-    const [ film, setMovies ] = useState<string>();
+    const [ film, setInfo] = useState<Info>();
 
     useEffect( () => {
         fetch(API, {
@@ -20,7 +25,7 @@ export default function Movie({nameRu, posterUrl, rating, filmId} : {nameRu:stri
         })
             .then(res => res.json())
             .then((data) => {
-                setMovies(data.description);
+                setInfo(data.description);
             }).catch(e => {});
 
 
@@ -30,9 +35,7 @@ export default function Movie({nameRu, posterUrl, rating, filmId} : {nameRu:stri
     return (
         <div>
             <img src={posterUrl} alt = {nameRu}/>
-           <a>{nameRu}, {rating},</a>
-            {film}
-            {/*{film.length > 0 && film.map((film) => <Info key={film.filmId} {...film} />)}*/}
+           {nameRu}, {rating}, {film}
         </div>
     )
 
