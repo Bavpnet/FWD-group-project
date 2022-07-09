@@ -4,8 +4,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Link from 'next/link';
 
-import Movie from '../pages/movie'
-import Menu from "../pages/menu";
+import Movie from './movie'
+import Menu from "./menu";
 import React, {useEffect, useState} from "react";
 
 import {API_Key, API_URL_SEARCH} from "./dataAPI";
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
 
     }, [count] );
 
-   const handleOnSubmit = (e) => {
+   const handleOnSubmit = (e: any) => {
         e.preventDefault()
 
         if (terms) {
@@ -74,7 +74,7 @@ const Home: NextPage = () => {
 
     };
 
-    const handleOnChange = (e) => {
+    const handleOnChange = (e:any) => {
         setSearchTerms(e.target.value)
     }
 

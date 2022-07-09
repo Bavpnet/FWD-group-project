@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
-import handleOnSubmit from "../pages/index"
+import handleOnSubmit from "."
 export default function Menu() {
     return(
         <div>
