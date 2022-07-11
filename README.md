@@ -1,5 +1,3 @@
-# This is Innopoisk apllication
-
 ## Getting Started
 
 First, run the development server:
