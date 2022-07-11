@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fec91a7a-2410-477f-acd1-05e38d1ed1ab" name="Changes" comment="refactor: menu layout and navigation by pages styles">
+    <list default="true" id="fec91a7a-2410-477f-acd1-05e38d1ed1ab" name="Changes" comment="add: UI for movie page">
+      <change afterPath="$PROJECT_DIR$/styles/movieInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/movie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/registration.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/movies/[filmId].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/movies/[filmId].tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="Film_Page_UI" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,11 +58,11 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/styles" />
       <recent name="$PROJECT_DIR$/pages/movies" />
       <recent name="$PROJECT_DIR$/pages" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="C:\Users\Lanna\Desktop\innopoisk\API" />
-      <recent name="C:\Users\Lanna\Desktop\innopoisk" />
     </key>
   </component>
   <component name="RunManager">
@@ -94,7 +94,7 @@
       <workItem from="1657117451160" duration="616000" />
       <workItem from="1657181610213" duration="2813000" />
       <workItem from="1657214708781" duration="15657000" />
-      <workItem from="1657442939156" duration="3063000" />
+      <workItem from="1657442939156" duration="7511000" />
     </task>
     <task id="LOCAL-00001" summary="add: next structure">
       <created>1656603875561</created>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657383040607</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add: dynamic routing for movie">
+      <created>1657449033702</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657449033703</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +201,8 @@
     <MESSAGE value="fix: code formatting" />
     <MESSAGE value="add: favourites layout" />
     <MESSAGE value="refactor: menu layout and navigation by pages styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: menu layout and navigation by pages styles" />
+    <MESSAGE value="add: dynamic routing for movie" />
+    <MESSAGE value="add: UI for movie page" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: UI for movie page" />
   </component>
 </project>
