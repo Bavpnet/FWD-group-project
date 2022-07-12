@@ -47,8 +47,7 @@ export default function Signup() {
         </button>
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p className={styles.question}>Don't have an account?</p>
-        <Link href="/registration">
-          <p>Sign up</p>
+        <Link href="/registration">Sign up
         </Link>
       </div>
     </div>

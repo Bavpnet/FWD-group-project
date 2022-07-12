@@ -26,7 +26,7 @@ export default function Favourites() {
 
   function result() {
     const movies = favMovies.filter((movie) => movie[1]);
-    console.log(movies);
+    
     return movies.map((movie) => (
       <FavComponent
         nameRu={movie[0]}
@@ -37,7 +37,6 @@ export default function Favourites() {
   }
 
   useEffect(() => {
-    console.log(auth.currentUser);
     readData();
     // eslint-disable-next-line no-unused-expressions
     result;

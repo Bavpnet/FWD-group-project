@@ -22,7 +22,6 @@ export default function Signup() {
     createUserWithEmailAndPassword(auth, email, password)
       .then((response) => {
         if (response.user) setIsSignedIn(response.user.uid);
-        console.log(response.user);
         router.push("/");
       })
       .catch((err) => {

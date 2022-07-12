@@ -31,11 +31,9 @@ const Home: NextPage = () => {
 
   function readData() {
     if (!isSignedIn) return;
-    console.log("THIS IS IT", isSignedIn);
     const userDoc = doc(db, isSignedIn);
     getDoc(userDoc).then((docc) => {
       if (docc.exists()) {
-        console.log(favMovies);
         setfavMovies(docc.data());
       }
     });
@@ -83,7 +81,6 @@ const Home: NextPage = () => {
       })
         .then((res) => res.json())
         .then((data) => {
-          // console.log(data);
           setMovies(data.films);
         });
       setSearchTerms("");
@@ -145,7 +142,6 @@ const Home: NextPage = () => {
                 onClick={(e) => {
                   setIsSignedIn("");
                   setfavMovies({});
-                  console.log(e);
                 }}
                 type="button"
                 className={styles.loginbtn}

@@ -22,9 +22,7 @@ export default function ContactId() {
   useEffect(() => {
     const { filmId } = router.query;
     if (filmId) {
-      console.log(router.query, filmId);
 
-      console.log("eeeee");
       fetch(API_INFO_BBY_ID + filmId, {
         headers: {
           "Content-Type": "application/json",
@@ -37,7 +35,6 @@ export default function ContactId() {
             return;
           }
           setInfo(data);
-          // console.log(data);
         })
         .catch(() => {});
     }

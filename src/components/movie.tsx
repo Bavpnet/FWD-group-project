@@ -35,7 +35,6 @@ export default function Movie({
             <button
               type="button"
               onClick={(event) => {
-                console.log(event);
                 if (isSignedIn)
                   setfavMovies((pre: any) => {
                     const pre2 = { ...pre };
@@ -62,7 +61,6 @@ export default function Movie({
             <button
               type="button"
               onClick={(event) => {
-                console.log(event);
                 setfavMovies((pre: any) => {
                   const pre2 = { ...pre };
                   pre2[nameRu] = false;

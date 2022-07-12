@@ -34,21 +34,15 @@ export default function Settings() {
       if (user) {
         updatePassword(user, password)
           .then((response) => {
-            console.log(response);
             alert("Password updated");
             setPassword("");
             setNewPassword("");
           })
           .catch((err) => {
-            console.log(err);
             alert("Error");
           });
-      } else {
-        console.log("Sign in Please");
-      }
+      } 
     });
-    // console.log (response.user);
-    // console.log(JSON.parse(localStorage.getItem('user')));
   };
   if (!isSignedIn) {
     return <div />;
