@@ -1,40 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90a1ba99-5521-4703-9e5e-17d03b8dd48b" name="Changes" comment="add: cyrpress settings and one test">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+    <list default="true" id="fec91a7a-2410-477f-acd1-05e38d1ed1ab" name="Changes" comment="add: favourites layout">
+      <change afterPath="$PROJECT_DIR$/pages/movies/Info.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/home.cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/home.cy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.ts" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/support/commands.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/favourites.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/favourites.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/movieInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/movieInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/movies/Info.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/movies/Info.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/dataAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/API/dataAPI.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/movies/[filmId].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/movies/[filmId].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/registration.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/registration.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/settings.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/settings.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/signin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signin.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/testing.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/testing.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/favComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/favComponent.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movie.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movie.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/read.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/read.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="API's_testing" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BIqDUEKnbzZ5tONopUSMs97svt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Lanna\\Desktop\\innopoisk1\\node_modules\\prettier",
-    "ts.external.directory.path": "C:\\Users\\Lanna\\Desktop\\innopoisk1\\node_modules\\typescript\\lib"
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/alexandrachupkova/WebstormProjects/innopoisk",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\Lanna\\Desktop\\innopoisk\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
+    "ts.external.directory.path": "C:\\Users\\karin\\WebstormProjects\\innopoisk\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/movies" />
+      <recent name="$PROJECT_DIR$/pages" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="C:\Users\Lanna\Desktop\innopoisk\API" />
+      <recent name="C:\Users\Lanna\Desktop\innopoisk" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
@@ -47,7 +78,123 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fec91a7a-2410-477f-acd1-05e38d1ed1ab" name="Changes" comment="" />
+      <created>1656603826302</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656603826302</updated>
+      <workItem from="1656603828515" duration="429000" />
+      <workItem from="1656604259863" duration="81000" />
+      <workItem from="1656604343756" duration="747000" />
+      <workItem from="1656661397640" duration="6887000" />
+      <workItem from="1657009499255" duration="16255000" />
+      <workItem from="1657105815154" duration="7739000" />
+      <workItem from="1657117451160" duration="616000" />
+      <workItem from="1657181610213" duration="2813000" />
+      <workItem from="1657214708781" duration="15657000" />
+      <workItem from="1657442939156" duration="3063000" />
+    </task>
+    <task id="LOCAL-00001" summary="add: next structure">
+      <created>1656603875561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656603875561</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add: skeleton">
+      <created>1656604486697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656604486697</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add: basic design and API implementation">
+      <created>1657117097571</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657117097571</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add: 2 modules for sign in and sign up">
+      <created>1657215230365</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657215230365</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: build errors connected to husky">
+      <created>1657283998738</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657283998738</updated>
+    </task>
+    <task id="LOCAL-00006" summary="fix: code formatting, ESlint rules">
+      <created>1657286044264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657286044264</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix: code formatting.&#10;in setting file: &lt;label&gt; should be a parent for the checkbox to be connected with it. Other way it will trigger linter.">
+      <created>1657289957444</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657289957444</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix: code formatting">
+      <created>1657290179741</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657290179741</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add: favourites layout">
+      <created>1657379734016</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657379734016</updated>
+    </task>
+    <task id="LOCAL-00010" summary="refactor: menu layout and navigation by pages styles">
+      <created>1657383040607</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657383040607</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add: next structure" />
+    <MESSAGE value="add: skeleton" />
+    <MESSAGE value="add: basic design and API implementation" />
+    <MESSAGE value="add: 2 modules for sign in and sign up" />
+    <MESSAGE value="fix: build errors connected to husky" />
+    <MESSAGE value="fix: code formatting, ESlint rules" />
+    <MESSAGE value="fix: code formatting.&#10;in setting file: &lt;label&gt; should be a parent for the checkbox to be connected with it. Other way it will trigger linter." />
+    <MESSAGE value="fix: code formatting" />
+    <MESSAGE value="add: favourites layout" />
+    <MESSAGE value="refactor: menu layout and navigation by pages styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: menu layout and navigation by pages styles" />
   </component>
 </project>
