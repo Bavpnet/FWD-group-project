@@ -1,0 +1,66 @@
+.body{
+    background-image:url("https://static.tildacdn.com/tild3366-3962-4162-b062-636235666135/career-in-film-makin.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
+
+.form {
+    margin: 15vh 10vw 10vh 60vw;
+    color: black;
+    height: 530px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.3);
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.form h1{
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+}
+
+.form input {
+    border-radius: 10px;
+    border: 0;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px 40px 10px 40px;
+}
+
+.form button {
+    font-size: 25px;
+    border: none;
+    border-radius: 15px;
+    margin:10px 80px 10px 80px;
+    padding: 10px;
+    color: white;
+    background: #CC5500;
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.1);
+}
+.form button:hover {
+    background: #CC6500;
+    box-shadow: 0 7px 9px rgba(0,0,0, 0.1);
+}
+.meta{
+    margin-left: 45px;
+    font-size: 22px;
+}
+
+.question {
+    text-align: center;
+    font-size: 18px;
+}
+
+.form a {
+    font-size: 18px;
+    text-align: center;
+    text-decoration: underline;
+}
+

@@ -1,0 +1,28 @@
+.main{
+    margin: 2rem 8rem 2rem 8rem;
+    height: 70px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.1);
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    min-width: 1200px;
+}
+
+.btn {
+    background: none;
+    border: none;
+}
+.btn img{
+        width: 30px;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

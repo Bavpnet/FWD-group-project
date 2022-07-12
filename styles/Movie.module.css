@@ -1,0 +1,41 @@
+.movie{
+    width: 300px;
+    background: #f0f0f0;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 3px 3px 5px rgba(0,0,0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+.movie img{
+    max-width: 100%;
+}
+.movie_info{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.movie_info h3{
+    margin: 0;
+}
+
+.movie_info img{
+    height: 25px;
+    min-width: 25px;
+    margin-right: 0.5rem;
+}
+.meta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.meta p {
+    text-align: center;
+}
+.meta button {
+    border: none;
+    background: none;
+}
