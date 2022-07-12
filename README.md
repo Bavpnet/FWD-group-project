@@ -12,4 +12,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## There is deployed version
 
-https://innopoisk-1-cs347fr2y-minusone-1.vercel.app/
+https://innopoisk-1.vercel.app/
