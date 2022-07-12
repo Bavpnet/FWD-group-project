@@ -12,3 +12,5 @@ context("Home", () => {
     cy.get("header");
   });
 });
+
+export {};

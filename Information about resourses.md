@@ -6,7 +6,6 @@
 - [Kinoposik API](https://kinopoisk.dev/documentation.html)
 - [Unofficial Kinoposik API](https://kinopoiskapiunofficial.tech/)
 
-
 ## Analogous and their design
 
 - [Kinoposik](https://www.kinopoisk.ru/)

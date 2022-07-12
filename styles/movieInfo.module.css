@@ -1,27 +1,42 @@
-.container{
-    display: flex;
-    flex-direction: row;
-    margin: 2rem 5rem 2rem 5rem;
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 5rem 2rem 5rem;
 }
 
 .container img {
-    width: 400px
+  width: 400px;
 }
 
 .info {
-    margin-left: 5rem;
+  margin-left: 5rem;
 }
 
 .general div {
-    display: flex;
+  display: flex;
 }
 .general h3 {
-    margin-right: 40px;
+  margin-right: 40px;
 }
 
 .general a {
-    display: flex;
-    margin: 0;
-    text-align: center;
-    align-content: center;
+  display: flex;
+  margin: 0;
+  text-align: center;
+  align-content: center;
+}
+.container button {
+
+  background: none;
+  border: none;
+}
+.info img{
+  width: 25px;
+  margin-left: 15px;
+  margin-top: 8px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
 }

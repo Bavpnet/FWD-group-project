@@ -1,27 +1,17 @@
-import React, { useEffect, useState } from "react";
-import Head from 'next/head'
-import Router, { useRouter } from 'next/router';
-import Link from 'next/link'
-import Read from "../src/components/read"
-import { getAuth, updatePassword } from "firebase/auth";
-
-import { app, database } from '../firebaseConfig'
-import {
-    collection,
-    addDoc,
-    getDoc,
-    doc,
-    DocumentReference
-} from 'firebase/firestore'
+import React, { useEffect } from "react";
+import { useRouter } from "next/router";
 import Menu from "../src/components/menu";
+
 export default function test() {
-    const router =useRouter();
-    useEffect(() => {
-        router.push('/');       
-      }, [])
-    return (
-        <div>
-            <Menu/>
-        </div>
-    );
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  const router = useRouter();
+  // eslint-disable-next-line react-hooks/rules-of-hooks
+  useEffect(() => {
+    router.push("/");
+  }, []);
+  return (
+    <div>
+      <Menu />
+    </div>
+  );
 }

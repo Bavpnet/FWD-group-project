@@ -1,46 +1,54 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { useRouter } from "next/router";
 import Menu from "../../src/components/menu";
-
 import { API_INFO_BBY_ID, API_KEY } from "../../API/dataAPI";
 import Info from "./Info";
+import { IsSignedInContext } from "../_app";
 
 type Information = {
-    description: string;
-    slogan: string;
-}
+  nameRu: string;
+  description: string;
+  slogan: string;
+};
 
 export default function ContactId() {
-    const router = useRouter();
+  // eslint-disable-next-line no-unused-vars
+  const { isSignedIn, setIsSignedIn } = useContext(IsSignedInContext)!;
+  const router = useRouter();
+
+  const [film, setInfo] = useState<Information>();
+  // eslint-disable-next-line no-unused-vars
+  const [fav, setFav] = useState<boolean>(false);
+  useEffect(() => {
     const { filmId } = router.query;
-    console.log(filmId);
-    const API = API_INFO_BBY_ID + filmId;
-    const [film, setInfo] = useState<Information>();
+    if (filmId) {
+      console.log(router.query, filmId);
 
-    useEffect(() => {
-        fetch(API, {
-            headers: {
-                "Content-Type": "application/json",
-                "X-API-KEY": API_KEY,
-            },
+      console.log("eeeee");
+      fetch(API_INFO_BBY_ID + filmId, {
+        headers: {
+          "Content-Type": "application/json",
+          "X-API-KEY": API_KEY,
+        },
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          if (data === "") {
+            return;
+          }
+          setInfo(data);
+          // console.log(data);
         })
-            .then((res) => res.json())
-            .then((data) => {
-                if (data === "") {
-                    return;
-                }
-                setInfo(data);
-                // console.log(data);
-            })
-            .catch(() => {});
-    }, []);
+        .catch(() => {});
+    }
+  }, [router]);
 
-    return (
-        <div>
-                <Menu />
-            <div>
-                <Info {...film} />
-            </div>
-        </div>
-    );
+  return (
+    <div>
+      <Menu />
+      <div>
+        <Info {...film} />
+      </div>
+    </div>
+  );
 }
