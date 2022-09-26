@@ -1,6 +1,6 @@
 
 
-# This is Innopoisk apllication
+# This is Innopoisk website
 
 ## Getting Started
 
@@ -15,7 +15,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## There is deployed version
+## There is the deployed version
 
 https://innopoisk-1.vercel.app/
 
